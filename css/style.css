@@ -1,0 +1,8 @@
+.responsive img {
+    margin-right: 2rem; /* Ganti 1rem dengan nilai yang Anda inginkan */
+}
+
+.responsive img:last-child {
+    margin-right: 0; /* Menghapus margin pada gambar terakhir */
+}
+
