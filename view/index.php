@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harum - Penginapan Murah di Bali</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 
     <!-- cdn slider js -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -20,14 +21,15 @@
 
     <!-- Header -->
     <header class="bg-white shadow-sm">
-        <div class="container d-flex justify-content-between align-items-center py-4 px-6">
+        <div class="container d-flex justify-content-between align-items-center py-3 px-6">
             <div class="d-flex align-items-center">
-                <img src="./img/logo.jpg" alt="Harum Logo" class="img-fluid" style="height: 40px;">
+                <img src="../img/logo.jpg" alt="Harum Logo" class="img-fluid" style="height: 40px;">
             </div>
             <nav class="d-flex">
                 <a href="#" class="text-dark mx-2">Hotel</a>
                 <a href="#" class="text-dark mx-2">Villa</a>
                 <a href="#" class="text-dark mx-2">Apartemen</a>
+                <!-- <img src="../img/pp.png" alt="" class=""> -->
             </nav>
             <button class="btn btn-primary">Daftar</button>
         </div>
@@ -36,7 +38,7 @@
     <!-- Main Content --> 
     <main class="bg-light">
         <!-- Hero Section -->
-        <section class="bg-cover bg-center text-white text-center" style="background-image: url('./img/banner.png'); padding: 80px 0;">
+        <section class="bg-cover bg-center text-white text-center" style="background-image: url('../img/banner.png'); padding: 80px 0;">
             <div class="container">
                 <h1 class="display-4 font-weight-bold">Penginapan murah yang ada di Bali.</h1>
                 <p class="mt-4">Membuat anda berhemat</p>
@@ -52,15 +54,15 @@
         <!-- slider -->
         <div class="container mt-4 p-4">
             <div class="responsive d-flex">
-                <img src="./img/rekomend1.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="./img/rekomend2.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="./img/rekomend3.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="./img/rekomend4.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="./img/rekomend1.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="./img/rekomend2.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="./img/rekomend3.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="./img/rekomend4.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="./img/rekomend1.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
+                <img src="../img/rekomend1.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
+                <img src="../img/rekomend2.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
+                <img src="../img/rekomend3.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
+                <img src="../img/rekomend4.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
+                <img src="../img/rekomend1.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
+                <img src="../img/rekomend2.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
+                <img src="../img/rekomend3.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
+                <img src="../img/rekomend4.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
+                <img src="../img/rekomend1.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
             </div>
         </div>
         <!-- end slider -->
@@ -70,7 +72,7 @@
             <h1 class="text-center h2 font-weight-bold text-dark mb-4"><span class="text-primary">Rekomendasi hotel </span>bintang 5 untuk anda!</h1>
             <div class="bungkus-luar d-flex p-4">
                 <div class="konten-kiri mr-3">
-                    <img src="./img/apurva.png" alt="" class="img-fluid" style="width: 200px; height: 200px; object-fit: cover;">
+                    <img src="../img/apurva.png" alt="" class="img-fluid" style="width: 200px; height: 200px; object-fit: cover;">
                 </div>
                 <div class="konten-kanan">
                     <h3 class="text-primary">The Apurva Kempinski Bali</h3>
@@ -82,7 +84,7 @@
         <!-- Footer -->
         <footer class="bg-white py-4">
             <div class="container d-flex justify-content-between align-items-center">
-                <img src="./img/logo.jpg" alt="" class="img-fluid" style="height: 40px;">
+                <img src="../img/logo.jpg" alt="" class="img-fluid" style="height: 40px;">
                 <span class="text-dark">©2024 - Harum</span>
                 <div class="d-flex">
                     <a href="#" class="text-dark mx-2">Tim Developer</a>
@@ -92,5 +94,6 @@
             </div>
         </footer>
         <script src="./js/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
