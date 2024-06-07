@@ -6,3 +6,22 @@
     margin-right: 0; /* Menghapus margin pada gambar terakhir */
 }
 
+
+/* style untuk menu hotel */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.hotel-list h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.villa-list h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.apartemen-list h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
