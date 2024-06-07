@@ -6,6 +6,7 @@
     margin-right: 0; /* Menghapus margin pada gambar terakhir */
 }
 
+<<<<<<< HEAD
 
 /* style untuk menu hotel */
 .card-img-top {
@@ -25,3 +26,8 @@
     text-align: center;
     margin-bottom: 50px;
 }
+=======
+.subjudul-villa span {
+    color: #007CC2;
+}
+>>>>>>> 762cea9d22cccb284a874c196899c1b59a0f1a3a
