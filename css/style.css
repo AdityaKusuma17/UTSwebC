@@ -6,28 +6,35 @@
     margin-right: 0; /* Menghapus margin pada gambar terakhir */
 }
 
-<<<<<<< HEAD
 
 /* style untuk menu hotel */
-.card-img-top {
-    height: 200px;
-    object-fit: cover;
-}
-.hotel-list h2 {
-    text-align: center;
-    margin-bottom: 50px;
-}
-.villa-list h2 {
-    text-align: center;
-    margin-bottom: 50px;
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+.carousel-control-prev .carousel-control-next {
+  background-color: #000000;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.apartemen-list h2 {
-    text-align: center;
-    margin-bottom: 50px;
-}
-=======
+
 .subjudul-villa span {
-    color: #007CC2;
+  color: #007CC2;
 }
->>>>>>> 762cea9d22cccb284a874c196899c1b59a0f1a3a

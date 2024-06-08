@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harum - Penginapan Murah di Bali</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+    <!-- cdn for swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- costum css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- cdn for fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -45,27 +48,68 @@
         </div>
         
         <!-- slider -->
-        <div class="container mt-4 p-4">
-            <div class="responsive d-flex">
-                <img src="../img/rekomend1.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="../img/rekomend2.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="../img/rekomend3.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="../img/rekomend4.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="../img/rekomend1.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="../img/rekomend2.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="../img/rekomend3.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="../img/rekomend4.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="../img/rekomend1.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-            </div>
-        </div>
+        <div id="carouselExampleInterval" class="carousel slide p-3" data-bs-ride="carousel">
+			<div class="carousel-inner">
+
+				<div class="carousel-item active" data-bs-interval="5000">
+                    <div class="d-flex justify-content-between grid gap-1">
+						<div class="p-2 g-col-6">
+							<img src="../img/imageUtama/rek1.jpeg" class="d-block rounded" alt="..." height="300">
+							<p>Akomodasi nyaman dekat pantai</p>
+						</div>
+						<div class="p-2 g-col-6">
+							<img src="../img/imageUtama/rek2.jpeg" class="d-block rounded" alt="..." height="300">
+							<p>Gambar 2</p>
+						</div>
+						<div class="p-2 g-col-6">
+							<img src="../img/imageUtama/rek3.jpeg" class="d-block rounded" alt="..." height="300">
+							<p>Gambar 3</p>
+						</div>
+						<div class="p-2 g-col-6">
+							<img src="../img/imageUtama/rek4.jpeg" class="d-block rounded" alt="..." height="300">
+							<p>Gambar 4</p>
+						</div>
+				    </div>
+                </div>
+				<div class="carousel-item" data-bs-interval="5000">
+                    <div class="d-flex justify-content-between">
+						<div class="p-2 g-col-6">
+							<img src="../img/imageUtama/rek5.jpeg" class="d-block rounded" alt="..." height="300">
+							<p>Gambar 1</p>
+						</div>
+						<div class="p-2 g-col-6">
+							<img src="../img/imageUtama/rek6.jpeg" class="d-block rounded" alt="..." height="300">
+							<p>Gambar 2</p>
+						</div>
+						<div class="p-2 g-col-6">
+							<img src="../img/imageUtama/rek7.jpeg" class="d-block rounded" alt="..." height="300">
+							<p>Gambar 3</p>
+						</div>
+						<div class="p-2 g-col-6">
+							<img src="../img/imageUtama/rek8.jpeg" class="d-block rounded" alt="..." height="300">
+							<p>Gambar 4</p>
+						</div>
+				    </div>
+				</div>
+                
+			</div>
+			<!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button> -->
+		</div>
         <!-- end slider -->
 
         <!-- hotel content -->
-        <div class="container mt-4 p-4">
+        <div class="container mt-5">
             <h1 class="text-center h2 font-weight-bold text-dark mb-4"><span class="text-primary">Rekomendasi hotel </span>bintang 5 untuk anda!</h1>
             <div class="bungkus-luar d-flex p-4">
                 <div class="konten-kiri mr-3">
-                    <img src="../img/apurva.png" alt="" class="img-kanan" height="490px" width="600px">
+                    <img src="../img/imageUtama/apurva.png" alt="" class="img-kanan" height="490px" width="600px">
                 </div>
                 <div class="konten-kanan">
                     <h3 class="text-primary mx-5 fw-bold">The Apurva Kempinski Bali</h3>
@@ -100,7 +144,7 @@
 
         <!-- Villa content -->
         <div class="container mt-4 p-4">
-            <h1 class=" subjudul-villa text-center font-weight-bold text-dark mb-4"><span>Best Villa </span>di Bali <span>hanya untukmu.</span></h1>
+            <h1 class=" subjudul-villa text-center font-weight-bold mb-4"><span>Best Villa </span>di Bali <span>hanya untukmu.</span></h1>
             <div class="bungkus-luar d-flex p-4">
                 <div class="konten-kiri mr-3">
                 <h3 class="fw-bold">Alam Ubud Culture Villas And 
@@ -138,7 +182,7 @@
                     </div>
                 </div>
                 <div class="konten-kanan">
-                    <img src="../img/apurva.png" alt="" class="img-kanan" height="490px" width="600px">
+                    <img src="../img/imageUtama/apurva.png" alt="" class="img-kanan" height="490px" width="600px">
                 </div>
             </div>
         </div>
@@ -146,10 +190,10 @@
 
          <!-- appartemen content -->
          <div class="container mt-4 p-4">
-            <h1 class="text-center h2 font-weight-bold text-dark mb-4">Rekomendasi Apartemen<span> class="text-bs-primary">bikin</span> kamu <span>nyaman</span></h1>
+            <h1 class="text-center h2 font-weight-bold text-dark mb-4">Rekomendasi Apartemen<span class="text-bs-primary">bikin</span> kamu <span>nyaman</span></h1>
             <div class="bungkus-luar d-flex p-4">
                 <div class="konten-kiri mr-3">
-                    <img src="../img/primeplaza.png" alt="" class="img-kanan" height="490px" width="600px">
+                    <img src="../img/imageUtama/primeplaza.png" alt="" class="img-kanan" height="490px" width="600px">
                 </div>
                 <div class="konten-kanan">
                     <h3 class="text-primary mx-5 fw-bold">Prime Plaza suites Sanur - Bali</h3>
@@ -195,7 +239,11 @@
                 </div>
             </div>
         </footer>
-        <script src="./js/script.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!-- js cdn swiper -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <!-- js costum -->
+        <script src="../js/script.js"></script>
+            <!-- bootstrap js -->
+        <script src="../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

@@ -52,25 +52,119 @@
         </div>
         
         <!-- slider -->
-        <div class="container mt-4 p-4">
-            <div class="responsive d-flex">
-                <img src="../img/rekomend1.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="../img/rekomend2.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="../img/rekomend3.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="../img/rekomend4.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="../img/rekomend1.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="../img/rekomend2.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="../img/rekomend3.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="../img/rekomend4.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-                <img src="../img/rekomend1.jpg" alt="" class="img-fluid mr-3" style="width: 200px; height: 100px; object-fit: cover;">
-            </div>
-        </div>
+        <div id="carouselExampleInterval" class="carousel slide p-3" data-bs-ride="carousel">
+			<div class="carousel-inner">
+
+				<div class="carousel-item active" data-bs-interval="5000">
+                    <div class="d-flex justify-content-between grid gap-1">
+						<div class="p-2 g-col-6">
+							<img src="../img/imageUtama/rek1.jpeg" class="d-block rounded" alt="..." height="300">
+							<p>Akomodasi nyaman dekat pantai</p>
+						</div>
+						<div class="p-2 g-col-6">
+							<img src="../img/imageUtama/rek2.jpeg" class="d-block rounded" alt="..." height="300">
+							<p>Gambar 2</p>
+						</div>
+						<div class="p-2 g-col-6">
+							<img src="../img/imageUtama/rek3.jpeg" class="d-block rounded" alt="..." height="300">
+							<p>Gambar 3</p>
+						</div>
+						<div class="p-2 g-col-6">
+							<img src="../img/imageUtama/rek4.jpeg" class="d-block rounded" alt="..." height="300">
+							<p>Gambar 4</p>
+						</div>
+				    </div>
+                </div>
+				<div class="carousel-item" data-bs-interval="5000">
+                    <div class="d-flex justify-content-between">
+						<div class="p-2 g-col-6">
+							<img src="../img/imageUtama/rek5.jpeg" class="d-block rounded" alt="..." height="300">
+							<p>Gambar 1</p>
+						</div>
+						<div class="p-2 g-col-6">
+							<img src="../img/imageUtama/rek6.jpeg" class="d-block rounded" alt="..." height="300">
+							<p>Gambar 2</p>
+						</div>
+						<div class="p-2 g-col-6">
+							<img src="../img/imageUtama/rek7.jpeg" class="d-block rounded" alt="..." height="300">
+							<p>Gambar 3</p>
+						</div>
+						<div class="p-2 g-col-6">
+							<img src="../img/imageUtama/rek8.jpeg" class="d-block rounded" alt="..." height="300">
+							<p>Gambar 4</p>
+						</div>
+				    </div>
+				</div>
+                
+			</div>
+			<!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button> -->
+		</div>
         <!-- end slider -->
 
         <!-- main content -->
         <div class="container mt-4 p-4">
+        <div class="subjudul mt-4 p-4">
+            <h1 class="h2 font-weight-bold text-dark mb-3">Inspirasi menginap untuk liburanmu selanjutnya</h1>
         </div>
+        </div>
+
+
+        <!-- konten 2 -->
+         <div class="container">
+            <div class="bungkus-konten">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                        <img src="../img/imageUtama/rek1.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                        <img src="../img/imageUtama/rek1.jpeg"" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                        <img src="../img/imageUtama/rek1.jpeg"" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                        <img src="../img/imageUtama/rek1.jpeg"" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
         <!-- end main content -->
+
 
         <!-- Footer -->
         <footer class="bg-white py-4">
