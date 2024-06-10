@@ -1,0 +1,30 @@
+body {
+  background-image: url("banner.png"); /* Ganti dengan path gambar latar belakang Anda */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex; /* Aktifkan flexbox pada body */
+  justify-content: center; /* Pusatkan konten secara horizontal */
+  align-items: center; /* Pusatkan konten secara vertikal */
+  min-height: 100vh; /* Pastikan body mengisi seluruh tinggi viewport */
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8); /* Card transparan */
+  border: none;
+}
+
+.logo img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  background-color: transparent; /* Input transparan */
+  color: black; /* Warna teks input */
+  border: 1px solid rgba(0, 0, 0, 0.3); /* Border transparan */
+}
+
+.form-control::placeholder {
+  color: rgba(0, 0, 0, 0.5); /* Warna placeholder */
+}
