@@ -1,9 +1,0 @@
-/* Styling tambahan jika diperlukan */
-.list-group-item.active {
-  background-color: #007bff; /* Warna biru untuk item aktif */
-  border-color: #007bff;
-}
-
-.list-group-item:not(.active) {
-  background-color: #f8f9fa; /* Warna latar belakang untuk item tidak aktif */
-}

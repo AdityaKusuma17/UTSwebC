@@ -1,10 +1,14 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harum - Penginapan Murah di Bali</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/UTSwebC/css/coba.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 
@@ -20,30 +24,56 @@
 <body>
 
     <!-- Header -->
-    <header class="bg-white shadow-sm">
-        <div class="container d-flex justify-content-between align-items-center py-3 px-6">
+    <header class="bg-white shadow-sm py-3 fw-bold fixed-top ">
+        <div class="container d-flex justify-content-between align-items-center">
             <div class="d-flex align-items-center">
-                <img src="../img/logo.jpg" alt="Harum Logo" class="img-fluid" style="height: 40px;">
+                <a href="coba1.html">
+                    <img src="../img/logo.jpg" alt="Harum Logo" class="img-fluid" style="height: 40px;">
+                </a>
             </div>
-            <nav class="d-flex">
-                <a href="#" class="text-dark mx-2">Hotel</a>
-                <a href="#" class="text-dark mx-2">Villa</a>
-                <a href="#" class="text-dark mx-2">Apartemen</a>
-                <!-- <img src="../img/pp.png" alt="" class=""> -->
-            </nav>
-            <button class="btn btn-primary">Daftar</button>
+            <div class="right-side d-flex align-items-center">
+                <nav class="navbar d-flex justify-content-end">
+                    <a href="#" class="text-dark mx-2">Hotel</a>
+                    <a href="#" class="text-dark mx-2">Villa</a>
+                    <a href="#" class="text-dark mx-2">Apartemen</a>
+                </nav>
+                <div class="ml-2">
+                    <a href="account.html">
+                        <img src="/UTSwebC/img/pp.png" alt="Profile" class="profile img-fluid rounded-circle profile-image" height="30px">
+                    </a>                
+                </div>
+            </div>   
         </div>
     </header>
+
 
     <!-- Main Content --> 
     <main class="bg-light">
         <!-- Hero Section -->
-        <section class="bg-cover bg-center text-white text-center" style="background-image: url('../img/banner.png'); padding: 100px 0;">
-            <div class="container">
-                <h4 class="display-6 position-absolute top-0 start-0 mt-5 p-5 text-bold">Penginapan murah yang ada di Bali.</h4>
-                <p class="mt-1 position-absolute top-5 start-1">Membuat anda berhemat</p>
+        <section class="min-vh-100 bg-cover bg-center text-white" style="background-image: url('../img/banner.png');">
+            <div class="container d-flex align-items-center h-100">
+                <div class="row align-items-center w-100">
+                    <div class="col-md-6 text-start"> 
+                        <h4 class="display-6 text-bold">Penginapan murah yang ada di Bali.</h4>
+                        <p class="mt-3">Membuat anda berhemat</p>
+                    </div>
+                    <div class="col-md-6 mt-5 p-5">
+                        <div class="card bg-light p-4">
+                            <h6 class="text-secondary">Cari hotel yuk..</h6>
+                            <div class="mb-3">
+                                <label for="location" class="form-label">Mau nginep dimana?</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fa-solid fa-location-dot"></i></span>
+                                    <input type="text" class="form-control" id="location" placeholder="Masukkan lokasi">
+                                </div>
+                            </div>
+                            <button class="btn btn-primary w-100">Cari</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+               
 
         <!-- subjudul -->
         <div class="subjudul mt-4 p-4">
